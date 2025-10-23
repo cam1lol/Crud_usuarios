@@ -1,18 +1,18 @@
 /* ================== TITULO ================== */
 h2.text-center {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2.5rem;        
-  font-weight: 700;        
-  color: #212529;            
-  letter-spacing: 1px;      
-  margin-bottom: 2rem;     
-  text-shadow: 0 1px 2px rgba(0,0,0,0.1); 
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #212529;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
   text-align: center;
 }
 
 /* ================== BOTON AGREGAR ================== */
 button.btn-success {
-  margin-top: -0.5rem;      
+  margin-top: -0.5rem;
   font-size: 1rem;
   padding: 0.5rem 1.2rem;
   font-weight: 600;
@@ -125,38 +125,38 @@ button.btn-outline-secondary:hover {
   transform: scale(1.05);
 }
 
-/* Animación botones */
+/* Animacion botones */
 button.btn:hover {
   transform: scale(1.05);
   transition: transform 0.2s;
 }
 
-/* Paginación con estilo de botones del modal */
+/* Paginacion de botones del modal */
 .pagination .page-link {
   background-color: #343a40; 
   color: #f8f9fa;
-  border: 2px solid #343a40; /* borde como el botón del modal */
-  border-radius: 6px;        /* misma redondez que el modal */
+  border: 2px solid #343a40;
+  border-radius: 6px;
   margin: 0 2px;
   transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
 .pagination .page-link:hover {
-  background-color: #495057;  /* hover similar al botón modal */
-  border-color: #495057;      /* borde cambia con el hover */
+  background-color: #495057;
+  border-color: #495057;
   transform: scale(1.05);
   color: #f8f9fa;
 }
 
 .pagination .page-item.active .page-link {
-  background-color: #000000; /* activo igual que antes */
-  border-color: #000000;     /* borde coincide con el fondo */
+  background-color: #000000;
+  border-color: #000000;
   color: #f8f9fa;
 }
 
 .pagination .page-item.disabled .page-link {
-  background-color: #aaaaaa; /* deshabilitado igual */
-  border-color: #aaaaaa;     /* borde coincide con el fondo */
+  background-color: #aaaaaa;
+  border-color: #aaaaaa;
   color: #fff;
 }
 
@@ -207,8 +207,8 @@ button.btn:hover {
   }
 
   table td {
-    text-align: left; /* alineación izquierda */
-    padding-left: 40%; /* espacio para label */
+    text-align: left;
+    padding-left: 40%;
     position: relative;
     border-bottom: 1px solid #e0e0e0;
   }
@@ -217,7 +217,7 @@ button.btn:hover {
     content: attr(data-label);
     position: absolute;
     left: 10px;
-    width: 35%; /* ancho del label */
+    width: 35%;
     text-align: left;
     font-weight: 600;
     color: #343a40;
